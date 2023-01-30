@@ -11,6 +11,6 @@ spec:
       containers:
       - name: my-container
         image: busybox
-        command: ["/bin/false"]
+        command: ["/bin/true"]
       restartPolicy: Never
   backoffLimit: 0
